@@ -2,7 +2,7 @@
 
 ## Domain: Banking
 
-### Use case : ### When a customer attempts to deposit money, the list of all accounts which the customers possess should be listed so that the customer can select to which account he would like to deposit the money. Customer can have the following accounts
+Use case : When a customer attempts to deposit money, the list of all accounts which the customers possess should be listed so that the customer can select to which account he would like to deposit the money. Customer can have the following accounts
 
 #### SavingsMaxAccount
 
