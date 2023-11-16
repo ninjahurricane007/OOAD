@@ -1,14 +1,14 @@
 # OOAD
 
-Domain: Banking
+##Domain: Banking
 
 Use case : When a customer attempts to deposit money, the list of all accounts which the customers possess should be listed so that the customer can select to which account he would like to deposit the money. Customer can have the following accounts
 
-SavingsMaxAccount
+###SavingsMaxAccount
 
-CurrentAccount
+###CurrentAccount
 
-LoanAccount
+###LoanAccount
 
 · Customer(customerCode,customerName,List<Account>)
 
@@ -24,7 +24,7 @@ LoanAccount
 
 · Service(serviceCode,serviceName,rate)
 
-Default services
+##Default services
 
 SavingsMaxAccount(CashDeposit. ATMWithdrawl,OnlineBanking)
 
@@ -33,7 +33,7 @@ CurrentAccount(CashDeposit,OnlineBanking,ATMWithdrawl,MobileBanking)
 LoanAccount(CashDeposit,ChequeDeposit)
 
 
-Case Diagram
+##Class Diagram
 
 ![model umlcd](https://github.com/ninjahurricane007/OOAD/assets/67139570/a51f79b0-6352-4448-9bc1-d7bba5baf5eb)
 
