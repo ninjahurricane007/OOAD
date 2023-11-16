@@ -2,35 +2,35 @@
 
 ## Domain: Banking
 
-Use case : When a customer attempts to deposit money, the list of all accounts which the customers possess should be listed so that the customer can select to which account he would like to deposit the money. Customer can have the following accounts
+### Use case : ### When a customer attempts to deposit money, the list of all accounts which the customers possess should be listed so that the customer can select to which account he would like to deposit the money. Customer can have the following accounts
 
-### SavingsMaxAccount
+#### SavingsMaxAccount
 
-### CurrentAccount
+#### CurrentAccount
 
-### LoanAccount
+#### LoanAccount
 
-· Customer(customerCode,customerName,List<Account>)
+· Customer(customerCode, customerName, List<Account>)
 
-· Account(accountNo,accountType,balance,Product).
+· Account(accountNo, accountType, balance, Product).
 
-· Product(productCode,productName,List<Service>)
+· Product(productCode, productName, List<Service>)
 
-· SavingsMaxAccount is a Product(minimumBalance of Rs1000 should be maintained in the account)
+· SavingsMaxAccount is a Product(minimumBalance of Rs.1000 should be maintained in the account)
 
 · CurrentAccount is a Product
 
-· LoanAccount is a Product.(chequeDeposit should be chargeable ie).3%).
+· LoanAccount is a Product.(chequeDeposit should be chargeable ie 3%).
 
-· Service(serviceCode,serviceName,rate)
+· Service(serviceCode, serviceName,rate)
 
-## Default services
+### Default services
 
-SavingsMaxAccount(CashDeposit. ATMWithdrawl,OnlineBanking)
+SavingsMaxAccount(CashDeposit, ATMWithdrawl, OnlineBanking)
 
-CurrentAccount(CashDeposit,OnlineBanking,ATMWithdrawl,MobileBanking)
+CurrentAccount(CashDeposit, OnlineBanking, ATMWithdrawl, MobileBanking)
 
-LoanAccount(CashDeposit,ChequeDeposit)
+LoanAccount(CashDeposit, ChequeDeposit)
 
 
 ## Class Diagram
